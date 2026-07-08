@@ -1,0 +1,56 @@
+ROOT CAUSE ANALYSIS REPORT
+
+Investigation ID: RCA-2026-0112
+Title: Elevated Average Handle Time on Prior Authorization Status Calls
+Date Range Investigated: 2026-03-01 to 2026-03-31
+Investigated By: S. Okonkwo, Quality Analyst
+
+PROBLEM STATEMENT
+Average handle time (AHT) for calls tagged with reason code "Prior
+Authorization Status" rose from a baseline of 6 minutes 40 seconds to 11
+minutes 15 seconds over the reporting month, exceeding the department
+target of 7 minutes and contributing to increased queue wait times
+center-wide.
+
+DATA REVIEWED
+Call reason code volume reports, a sample of 40 recorded calls, and
+representative interviews from three shifts.
+
+FINDINGS
+Recorded calls showed representatives frequently placing members on hold
+for 3 to 5 minutes while manually checking prior authorization status in a
+separate legacy system that does not share a login session with the
+primary call platform, requiring representatives to re-enter member ID and
+date of birth a second time.
+
+ROOT CAUSE ANALYSIS (5 WHYS)
+1. Why is AHT elevated on these calls? Representatives spend several
+   minutes on hold looking up status manually.
+2. Why is the lookup manual? The legacy prior authorization system was not
+   integrated with the primary call platform during the last system
+   upgrade.
+3. Why wasn't it integrated? The integration was deprioritized in favor of
+   claims-system integration, which had a higher volume of call types at
+   the time.
+4. Why has this not been revisited since? No formal process exists to
+   re-evaluate deprioritized integration items after go-live.
+5. Why is there no re-evaluation process? Post-launch system reviews focus
+   on defect tracking, not on deferred scope items.
+
+ROOT CAUSE
+The prior authorization lookup system was never integrated with the
+primary call platform, forcing a manual, duplicate-entry lookup that adds
+several minutes to every call of this type.
+
+CORRECTIVE ACTIONS
+1. Submit an integration request to IT to add single sign-on lookup for
+   prior authorization status within the primary call platform (Owner: IT
+   Systems, Due: 2026-06-01).
+2. In the interim, provide representatives a saved-session shortcut to
+   reduce manual entry (Owner: Call Center Operations, Due: 2026-04-15).
+3. Add a formal deferred-scope review step to future system launch
+   checklists (Owner: Quality Assurance, Due: 2026-05-01).
+
+APPROVAL
+Prepared by: S. Okonkwo, Quality Analyst
+Reviewed by: Call Center Operations Manager

@@ -1,0 +1,59 @@
+ROOT CAUSE ANALYSIS REPORT
+
+Investigation ID: RCA-2026-0126
+Title: Repeat-Call Volume for Unresolved Billing Dispute Issues
+Date Range Investigated: 2026-04-01 to 2026-04-30
+Investigated By: P. Alvarado, Quality Analyst
+
+PROBLEM STATEMENT
+Members who called about a premium billing dispute called back a second
+time on the same issue within 14 days at a rate of 34 percent, well above
+the center's first-call resolution target repeat-call threshold of 12
+percent, indicating that initial resolutions were not sticking.
+
+DATA REVIEWED
+Repeat-call reports linked by member ID and reason code, a sample of 35
+paired initial-and-repeat call recordings, and the billing adjustment
+processing timeline.
+
+FINDINGS
+In nearly all sampled repeat calls, the representative on the initial call
+told the member the adjustment was "resolved" and would appear on their
+next statement, but the adjustment had only been submitted to a separate
+billing department queue with a processing time of 5 to 10 business days.
+Members interpreted "resolved" as immediate and called back when no change
+appeared within a few days.
+
+ROOT CAUSE ANALYSIS (5 WHYS)
+1. Why do members call back? They see no change to their bill after being
+   told the issue was resolved.
+2. Why do they expect an immediate change? Representatives use the word
+   "resolved" without specifying that the adjustment is pending downstream
+   processing.
+3. Why do representatives phrase it that way? There is no standard
+   scripting for communicating pending versus completed adjustment status.
+4. Why is there no standard scripting? The call script library was last
+   updated before the separate billing adjustment queue was introduced.
+5. Why wasn't the script library updated at that time? Script updates are
+   only triggered by direct escalation requests, and this gap was never
+   escalated.
+
+ROOT CAUSE
+Representatives lack standardized language to distinguish a submitted
+adjustment from a completed one, causing members to believe billing issues
+are fixed immediately when they are actually pending a 5 to 10 business day
+downstream process.
+
+CORRECTIVE ACTIONS
+1. Update the call script library with required language distinguishing
+   "submitted for adjustment" from "resolved" (Owner: Quality Assurance,
+   Due: 2026-05-20).
+2. Add an automated text or email confirmation when a billing adjustment
+   is submitted, including the expected processing window (Owner: IT
+   Systems, Due: 2026-06-15).
+3. Trigger a script library review whenever a new downstream processing
+   queue is introduced (Owner: Quality Assurance, Due: 2026-05-01).
+
+APPROVAL
+Prepared by: P. Alvarado, Quality Analyst
+Reviewed by: Call Center Operations Manager

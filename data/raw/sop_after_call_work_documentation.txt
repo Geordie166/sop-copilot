@@ -1,0 +1,48 @@
+STANDARD OPERATING PROCEDURE
+
+Document ID: SOP-CC-003
+Title: After-Call Work Documentation Standards
+Effective Date: 2026-01-20
+Revision: 3
+Department: Member Services Call Center
+
+PURPOSE
+This procedure defines the minimum documentation standard representatives
+must complete during after-call work (ACW) following every member call. It
+exists to ensure accurate, auditable records of member interactions and to
+support continuity when a member calls back about the same issue.
+
+SCOPE
+Applies to all Member Services representatives for every completed call,
+including calls that were transferred or escalated.
+
+PROCEDURE
+1. Select the correct call reason code from the standardized list; do not
+   use the generic "Other" code unless no listed reason applies.
+2. Record the identity verification method used, per SOP-CC-001.
+3. Summarize the member's request in plain language, avoiding
+   abbreviations that are not on the approved abbreviation list.
+4. Document each action taken during the call, including any systems
+   updated, forms submitted, or transfers made.
+5. Record the outcome of the call: resolved, pending follow-up, or
+   escalated.
+6. If the outcome is pending follow-up, enter a specific follow-up date
+   and the owning department.
+7. Complete ACW within the target of 90 seconds after call disconnect to
+   maintain queue availability, without sacrificing completeness.
+8. Submit the call record before accepting the next call.
+
+QUALITY REQUIREMENTS
+Call notes are subject to random quality audit. Notes must be specific
+enough that another representative could understand the member's issue
+and prior actions without needing to listen to the call recording.
+
+COMMON ERRORS TO AVOID
+Do not copy and paste identical notes across multiple calls from the same
+member without updating call-specific details. Do not leave the outcome
+field blank. Do not use member-identifying details in the free-text reason
+field beyond what is necessary for context.
+
+APPROVAL
+Prepared by: K. Ramirez, Call Center Operations Manager
+Reviewed by: Quality Assurance Department

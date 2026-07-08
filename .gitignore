@@ -1,0 +1,16 @@
+# Derived/generated data — regenerable by re-running src/ingest.py and
+# src/embed.py against data/raw. Not source of truth, so it doesn't belong
+# in version control (and the chroma_db files can get large/binary).
+data/processed/
+
+# Secrets — never commit API keys.
+.env
+
+# Python virtual environment — machine-specific, reinstalled from
+# requirements.txt rather than versioned.
+venv/
+
+# Python bytecode/cache artifacts.
+__pycache__/
+*.pyc
+.pytest_cache/

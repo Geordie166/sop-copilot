@@ -1,0 +1,55 @@
+STANDARD OPERATING PROCEDURE
+
+Document ID: SOP-CC-002
+Title: Call Escalation Protocol for Member Services
+Effective Date: 2026-02-01
+Revision: 2
+Department: Member Services Call Center
+
+PURPOSE
+This procedure defines when and how a representative must escalate a call
+to a Tier 2 specialist or supervisor. It exists to ensure complex or
+sensitive issues reach staff with the appropriate authority and expertise,
+and to keep escalation handling consistent across the center.
+
+SCOPE
+Applies to all Tier 1 Member Services representatives.
+
+ESCALATION TRIGGERS
+Escalate a call immediately when any of the following occur: the member
+requests a supervisor by name or title; the issue involves a grievance or
+appeal; the call involves a threat of self-harm or harm to others; the
+resolution requires an account adjustment exceeding the representative's
+authorization limit of 500 dollars; or the member has called three or
+more times about the same unresolved issue.
+
+PROCEDURE
+1. Inform the member that you will be transferring them to a specialist
+   who can better assist with their request.
+2. Place the member on hold using the warm-transfer hold, not a blind
+   transfer.
+3. Contact the Tier 2 queue and provide a verbal summary including the
+   member's verified identity status, the issue, and any actions already
+   taken.
+4. Confirm the Tier 2 specialist is ready before connecting the member.
+5. Remain on the line for the introduction, then disconnect once the
+   specialist confirms they have the details.
+6. Log the escalation reason and receiving specialist's name in the call
+   record.
+7. If no Tier 2 specialist is available within 3 minutes, offer the
+   member a scheduled callback within 24 hours rather than extending hold
+   time indefinitely.
+
+SUPERVISOR ESCALATIONS
+Requests for a supervisor must be honored within one transfer attempt.
+Representatives may not attempt to resolve the issue themselves after a
+named supervisor request has been made, as this can be perceived as
+withholding access.
+
+DOCUMENTATION REQUIREMENTS
+All escalations must be tagged with an escalation reason code in the call
+record for quality reporting.
+
+APPROVAL
+Prepared by: K. Ramirez, Call Center Operations Manager
+Reviewed by: Quality Assurance Department

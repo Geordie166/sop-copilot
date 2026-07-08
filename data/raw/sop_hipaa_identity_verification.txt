@@ -1,0 +1,54 @@
+STANDARD OPERATING PROCEDURE
+
+Document ID: SOP-CC-001
+Title: Member Identity Verification Prior to Discussing Protected Health Information
+Effective Date: 2026-01-05
+Revision: 4
+Department: Member Services Call Center
+
+PURPOSE
+This procedure defines the mandatory steps a service representative must
+complete to verify a caller's identity before discussing any protected
+health information (PHI), including eligibility, claims, benefits, or
+prior authorization status. It exists to prevent unauthorized disclosure
+of member health information.
+
+SCOPE
+Applies to all Member Services representatives handling inbound and
+outbound calls related to member accounts.
+
+PROCEDURE
+1. Greet the caller and ask them to state their full name and date of
+   birth.
+2. Ask the caller to provide their member ID number as printed on their
+   health plan ID card.
+3. Cross-check the name, date of birth, and member ID against the record
+   in the member management system; all three must match exactly.
+4. If the caller is not the member (e.g., spouse, parent of a minor
+   dependent, or authorized representative), confirm the caller's
+   relationship to the member and verify an active authorized
+   representative flag exists on the account.
+5. If no authorized representative flag exists, inform the caller that
+   you cannot discuss PHI with them and offer to send an authorization
+   form.
+6. If verification succeeds, proceed with the call and document in the
+   call notes that identity was verified, including the method used.
+7. If verification fails after two attempts, do not disclose any PHI.
+   Offer to have the member call back directly or request written
+   authorization.
+8. For calls transferred from another department, re-verify identity;
+   verification does not carry over between departments.
+
+EXCEPTIONS
+Calls from providers' offices calling on behalf of a member follow a
+separate provider verification procedure (SOP-CC-004) and are not covered
+by this document.
+
+DOCUMENTATION REQUIREMENTS
+Every call touching PHI must include a verification status note in the
+call record before any account details are discussed, per company policy
+and applicable privacy regulations.
+
+APPROVAL
+Prepared by: D. Whitfield, Compliance Manager
+Reviewed by: Privacy Office
