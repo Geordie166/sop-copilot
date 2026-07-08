@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What are the steps to verify a caller's identity before discussing member information?",
+    "expected_source": "sop_hipaa_identity_verification.txt",
+    "should_refuse": false
+  },
+  {
+    "question": "When must a representative escalate a call to a supervisor or Tier 2 specialist?",
+    "expected_source": "sop_call_escalation_protocol.txt",
+    "should_refuse": false
+  },
+  {
+    "question": "How quickly must after-call work be completed once a call disconnects?",
+    "expected_source": "sop_after_call_work_documentation.txt",
+    "should_refuse": false
+  },
+  {
+    "question": "Why did average handle time increase on prior authorization status calls?",
+    "expected_source": "rca_high_aht_prior_authorization_calls.txt",
+    "should_refuse": false
+  },
+  {
+    "question": "What caused members to call back repeatedly about billing disputes?",
+    "expected_source": "rca_repeat_call_volume_billing_disputes.txt",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the company's policy on employee vacation accrual?",
+    "expected_source": null,
+    "should_refuse": true
+  },
+  {
+    "question": "What is the maximum weight limit for the warehouse forklift?",
+    "expected_source": null,
+    "should_refuse": true
+  }
+]

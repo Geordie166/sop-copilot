@@ -29,6 +29,8 @@ src/agent.py          Claude tool-use loop + interactive CLI / --demo mode
 tests/test_ingest.py  Unit tests for the deterministic chunking logic
 tests/test_embed.py   Unit tests for ChromaDB storage/retrieval (local only)
 tests/test_agent.py   Unit tests for the tool-use loop (mocked Anthropic client)
+data/eval/qa_pairs.json  Labeled Q&A dataset for evaluating the whole system
+src/evaluate.py       Eval harness: retrieval recall@1/@3 + optional live-API generation checks
 ```
 
 Pipeline: **ingest** (load + chunk) → **embed** (vectorize + store in
@@ -67,6 +69,14 @@ chunks, answers with citations).
   life of the REPL so follow-up questions have context, but nothing is
   saved between runs — there's no multi-user or resumed-session
   requirement yet to justify that complexity.
+- **Eval harness splits retrieval and generation checks, with generation
+  opt-in via `--full`.** Retrieval accuracy (does the vector search return
+  the right document?) is local, free, and deterministic, so it's safe to
+  run by default. Generation quality requires real Claude API calls, costs
+  money, and isn't fully automatable — grading whether free-text prose
+  correctly cites sources or appropriately refuses is a hard problem, so
+  `evaluate.py --full` only applies a rough keyword heuristic and prints
+  the full transcript for a human to actually read and judge.
 
 ## Setup
 
@@ -90,6 +100,8 @@ python src/embed.py      # embed all documents into ChromaDB, run a test query
 python src/agent.py      # interactive chat session (multi-turn, type 'exit' to quit)
 python src/agent.py --demo  # non-interactive: two canned questions against the real API
 pytest tests/            # run the full unit test suite (15 tests, no API key required)
+python src/evaluate.py         # retrieval recall@1/@3 over data/eval/qa_pairs.json (free, local)
+python src/evaluate.py --full  # also runs generation checks against the real API (costs money)
 ```
 
 ## Open questions for further review
@@ -103,6 +115,7 @@ pytest tests/            # run the full unit test suite (15 tests, no API key re
 - No persistence of conversation history across CLI sessions, and no
   multi-user support — both would matter for a real deployment but aren't
   needed to demonstrate the RAG pipeline itself.
-- No evaluation harness (e.g. a labeled set of Q&A pairs to measure
-  retrieval/answer quality over time) — worth adding if this project grows
-  beyond a handful of example documents.
+- The eval dataset (`data/eval/qa_pairs.json`) has 7 questions covering
+  every source document plus two out-of-scope probes — enough to validate
+  the pipeline works, not enough to be statistically meaningful. Worth
+  growing alongside the document corpus if this project continues.
